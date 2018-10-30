@@ -1,0 +1,86 @@
+body {
+	background: white;
+	background-size: cover;
+	font-family: Arial;
+	color:black;
+    padding: 0px 0px;
+}
+
+.button{
+    float: right; 
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.nav{
+        background-color: black;
+        width:100%;
+        height: 100px ;
+        position: fixed;
+        overflow: hidden;
+}
+.nav ul {
+	margin: 0px;
+	padding: 0px;
+    
+    overflow: hidden;
+	list-style: none;
+    position: fixed ;
+}
+.nav ul li {
+	 float:left;
+	 width: 150px;
+	 height: 100px;
+	 background-color: black;
+     overflow: hidden;
+	 opacity: 70;
+     line-height: 100px;
+	 text-align: center;
+	 font-size:22px;
+     padding: 0px 0px;
+ 
+ 
+ }
+
+.asdf{
+    margin-top: 120px;
+    width: 85%;
+    margin-left: 7%;
+    margin-right:7% ; 
+ }
+ .nav ul li a {
+	 text-decoration:none;
+	 color:white;
+	 display: black;
+	 
+ 
+ 
+ }
+ .nav ul li a:hover {
+	 color:#FEFCD7;
+ }
+ 
+ .nav ul li ul li{
+	 display:none;
+ }
+ 
+ .nav ul li:hover ul li {
+	 display:block;
+ }
+
+
+button:hover {
+ color: #FEFCD7;   
+}
+
+@media screen and (max-width: 600px){
+    ul.nav li.right, 
+    ul.nav li {float: none;}
+}
