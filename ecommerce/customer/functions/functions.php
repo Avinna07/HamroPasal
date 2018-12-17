@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("localhost","train_ecommerce","Ecommerce123","trainfut_ecommerce");
+$con = mysqli_connect("localhost","rawci_avi","Avidevil71@","rawciphe_group");
 
 if (mysqli_connect_errno()){
 	
