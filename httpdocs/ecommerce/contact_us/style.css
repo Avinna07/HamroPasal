@@ -1,0 +1,33 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: auto;
+}
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+/* Adding a background color and some padding around the form */
+.contact_container {
+    border-radius: 5px;
+    background-color: green;
+    padding: 30px;
+}
